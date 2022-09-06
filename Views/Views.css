@@ -1,0 +1,32 @@
+
+/* STATUS DINÂMICOS - AJAX */
+#status-container{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;position:fixed;z-index:999999;pointer-events:none}
+
+.status-title{font-weight:700}
+.status-message{-ms-word-wrap:break-word;word-wrap:break-word;}
+
+.status-message a,.status-message label{color:#FFF}
+.status-message a:hover{color:#CCC;text-decoration:none}
+.status-close-button{position:relative;right:-.3em;top:-.3em;float:right;font-size:20px;font-weight:700;color:#FFF;-webkit-text-shadow:0 1px 0 #fff;text-shadow:0 1px 0 #fff;opacity:.8;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=70);filter:alpha(opacity=70);line-height:1}
+.status-close-button:focus,.status-close-button:hover{color:#000;text-decoration:none;cursor:pointer;opacity:.5;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=40);filter:alpha(opacity=40)}
+
+.rtl .status-close-button{left:-.3em;float:left;right:.3em}
+button.status-close-button{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance:none}
+.status-top-right{top:12px;right:12px}
+
+#status-container>div{position:relative;pointer-events:auto;overflow:hidden;margin:0 0 6px;padding:15px 15px 15px 15px;width:100%;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;background-position:15px center;background-repeat:no-repeat;-moz-box-shadow:0 0 12px #999;-webkit-box-shadow:0 0 12px #999;box-shadow:0 0 12px #999;color:#FFF;opacity:1.0;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=40);filter:alpha(opacity=40)}
+.status-success{
+    background-color: #247c40;
+}
+
+.status-error{
+    background-color: #d4383a;
+}
+
+.status-info{
+    background-color:#09316f;
+}
+
+.status-warning{
+    background-color: #cc4b0c;
+}
